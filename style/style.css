@@ -1,97 +1,112 @@
-:root{
-	--yellow:#ffc45d;
-	--green:#53BF9D;
-	--red:#FE0000;
-	--white:#F5F5F5;
+:root {
+	--yellow: #ffc45d;
+	--green: #53bf9d;
+	--red: #fe0000;
+	--white: #f5f5f5;
 }
 
-body{
+body {
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
-
 }
 
-.landing{
+.landing {
 	background-image: url('../Pics/Master.jpg');
 	background-size: cover;
 	background-position: center;
-	height: 100vh; 
+	height: 100vh;
 	color: var(--white);
 }
 
-header a{
+header a {
 	text-decoration: none;
 	color: var(--yellow);
 }
 
-header{
+header {
 	display: flex;
 }
 
-#logo{
+#logo {
 	flex: 3;
 	font-size: 1.25em;
 }
 
-nav{
-	flex:2;
+nav {
+	flex: 2;
 	display: flex;
 }
 
-nav a{
-	flex:1;
+nav a {
+	flex: 1;
 }
 
-nav a:hover{
+nav a:hover {
 	color: var(--green);
 }
 
-.maintext{
-	display:flex;
+.maintext {
+	display: flex;
 	flex-direction: column;
 	height: 50vh;
 	justify-content: center;
 	padding: 2em;
 }
 
-.tagline1{
+.tagline1 {
 	color: var(--red);
 	font-size: 2.5em;
 	font-weight: bolder;
 }
 
-.tagline2{
+.tagline2 {
 	color: var(--yellow);
 }
 
-.maintext div{
-	margin-top: .75em;
+.maintext div {
+	margin-top: 0.75em;
 }
 
-.maintext{
-	width:20vm;
+.maintext {
+	width: 20vm;
 	margin-top: 2em;
 	border-radius: 10px;
-	padding: .7em;
+	padding: 0.7em;
 	background-color: var(--green);
 	color: var(--white);
 	border: 1px solid var(--green);
 }
 
-.menu{
+.menu {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52));
+	background: linear-gradient(to right, rgb(100, 100, 100), rgb(53, 52, 52));
 	color: var(--white);
 }
 
-#menuheading,#locaheading{
-	background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52));
+#menuheading,
+#locaheading {
+	background: linear-gradient(to right, rgb(100, 100, 100), rgb(53, 52, 52));
 	font-size: 2.5em;
 	color: var(--red);
 }
 
-.menu th{
+.menu th {
 	color: var(--green);
 	font-size: 1.8em;
 }
+
+
+
+/* @media screen and (min-width: 220px) {
+} */
+
+/* 
+* 218 small sizes mobile
+* 360 large sizes mobile
+* 480 small sizes tab
+* 620 13 inch lap or tablet
+* 860 normal window pc or large size lap
+* 920 small size tv
+*1200 42 inch tv
+ */
