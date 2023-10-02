@@ -1,6 +1,6 @@
-on:  
- pull_request:
-    branches: [ "master" ]
+on: 
+ push: 
+  branches: ["master"]
 name: 🚀 Deploy website
 jobs:
   web-deploy:
