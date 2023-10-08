@@ -105,17 +105,66 @@ nav a:hover {
 	}
 }
 
+@media only screen and (max-width: 480px ){
+	.text{
+		visibility: collapse;
+	}
+	.landing{
+		visibility: visible;
+	}
+}
+ 
+@media only screen and (max-width: 360px ){
+	.text{
+		visibility: collapse;
+	}
+	.landing{
+		visibility: visible;
+	}
+}
 
+@media only screen and (max-width: 480px ){
+	.text{
+		visibility: collapse;
+	}
+	.landing{
+		visibility: visible;
+	}
+}
 
-/* @media screen and (min-width: 220px) {
-} */
+@media only screen and (max-width: 620px ){
+	.text{
+		visibility: collapse;
+	}
+	.landing{
+		visibility: visible;
+	}
+}
 
-/* 
-* 218 small sizes mobile
-* 360 large sizes mobile
-* 480 small sizes tab
-* 620 13 inch lap or tablet
-* 860 normal window pc or large size lap
-* 920 small size tv
-*1200 42 inch tv
- */
+@media only screen and (max-width: 860px ){
+	.text{
+		visibility: collapse;
+	}
+	.landing{
+		visibility: visible;
+	}
+}
+
+@media only screen and (max-width: 920px ){
+	.text{
+		visibility: collapse;
+	}
+	.landing{
+		visibility: visible;
+	}
+}
+
+@media only screen and (max-width: 1200px ){
+	.text{
+		visibility: collapse;
+	}
+	.landing{
+		visibility: visible;
+	}
+}
+
