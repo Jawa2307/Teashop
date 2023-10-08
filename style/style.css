@@ -96,6 +96,15 @@ nav a:hover {
 	font-size: 1.8em;
 }
 
+@media only screen and (max-width: 218px ){
+	.text{
+		visibility: collapse;
+	}
+	.landing{
+		visibility: visible;
+	}
+}
+
 
 
 /* @media screen and (min-width: 220px) {
