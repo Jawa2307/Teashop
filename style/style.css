@@ -96,75 +96,81 @@ nav a:hover {
 	font-size: 1.8em;
 }
 
-@media only screen and (max-width: 218px ){
-	.text{
+@media only screen and (max-width: 218px) {
+	.text {
 		visibility: collapse;
 	}
-	.landing{
+	.landing {
 		visibility: visible;
 	}
 }
 
-@media only screen and (max-width: 480px ){
-	.text{
-		visibility: collapse;
+@media only screen and (max-width: 480px) {
+	header {
+		background-color: rgba(0, 0, 0, 0.4);
+		box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.6);
+		height: 40px;
+		display: flex;
+		align-items: center;
+		position: sticky;
+		top: 0;
+		z-index: 99;
 	}
-	.landing{
-		visibility: visible;
+	.landing {
+		height: 250px;
 	}
 }
- 
-@media only screen and (max-width: 360px ){
-	.text{
+
+@media only screen and (max-width: 360px) {
+	.text {
 		visibility: collapse;
 	}
-	.landing{
+	.landing {
 		visibility: visible;
 	}
 }
 
-@media only screen and (max-width: 480px ){
-	.text{
+@media only screen and (max-width: 480px) {
+	.text {
 		visibility: collapse;
 	}
-	.landing{
+	.landing {
 		visibility: visible;
 	}
 }
 
-@media only screen and (max-width: 620px ){
-	.text{
+@media only screen and (max-width: 620px) {
+	.text {
 		visibility: collapse;
 	}
-	.landing{
+	.landing {
 		visibility: visible;
 	}
 }
 
-@media only screen and (max-width: 860px ){
-	.text{
+@media only screen and (max-width: 860px) {
+	.text {
 		visibility: collapse;
 	}
-	.landing{
+	.landing {
 		visibility: visible;
 	}
 }
 
-@media only screen and (max-width: 920px ){
-	.text{
+@media only screen and (max-width: 920px) {
+	.text {
 		visibility: collapse;
 	}
-	.landing{
+	.landing {
 		visibility: visible;
 	}
 }
 
-@media only screen and (max-width: 1200px ){
-	.text{
+@media only screen and (max-width: 1200px) {
+	.text {
 		visibility: collapse;
 	}
-	.landing{
+	.landing {
 		visibility: visible;
 	}
 }
-
