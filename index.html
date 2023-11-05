@@ -1,37 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./style/style.css" />
-		<title>☕️Jawa Tea Kadai</title>
-	</head>
-	<body>
-		<header>
-			<a href="index.html" id="logo">Tea Kadai</a>
-			<nav>
-				<a href="">Menu</a>
-				<a href="">Location</a>
-			</nav>
-		</header>
-		<div class="landing">
-			
-		</div>
-		<div class="maintext">
-			<div class="tagline1">
-				Taste the Tea
-			</div>
-			<div class="tagline2">
-				Freshest Ingredients Only
-			</div>
-			<div class="callus">
-				Call us @+91 1234567890
-			</div>
-			<button>Order Now</button>
-		</div>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+		integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+		integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+		crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="./style/style.css" />
+	<title>☕️Jawa Tea Kadai</title>
+</head>
+
+<body>
+	<header>
+		<a href="index.html" id="logo">Tea Kadai</a>
+		<nav>
+			<a href="">Menu</a>
+			<a href="">Location</a>
+		</nav>
+	</header>
+	<div class="landing">
+
 	</div>
-	<h2 id="menuheading">Menu</h2>	
+	<div class="maintext">
+		<div class="tagline1">
+			Taste the Tea
+		</div>
+		<div class="tagline2">
+			Freshest Ingredients Only
+		</div>
+		<div class="callus">
+			Call us @+91 1234567890
+		</div>
+		<button class="btn btn-outline-primary btn-sm">Order Now</button>
+	</div>
+	</div>
+	<h2 id="menuheading">Menu</h2>
 	<div class="Menu">
+		<div class="accordion" id="accordionExample">
+			<div class="accordion-item">
+				<h2 class="accordion-header">
+					<button class="accordion-button" type="button" data-bs-toggle="collapse"
+						data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+						Tea's
+					</button>
+				</h2>
+				<div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+					<div class="accordion-body">
+						<p>Dum tea :12</p>
+					</div>
+				</div>
+				<div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+					<div class="accordion-body">
+						<p>Leamon tea :12</p>
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+						data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+						Coffee's
+					</button>
+				</h2>
+				<div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+					<div class="accordion-body">
+						<strong>This is the second item's accordion body.</strong> It is hidden by default, until the
+						collapse plugin adds the appropriate classes that we use to style each element. These classes
+						control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+						modify any of this with custom CSS or overriding our default variables. It's also worth noting
+						that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+						does limit overflow.
+					</div>
+				</div>
+			</div>
+			<div class="accordion-item">
+				<h2 class="accordion-header">
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+						data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+						Accordion Item #3
+					</button>
+				</h2>
+				<div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+					<div class="accordion-body">
+						<strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+						collapse plugin adds the appropriate classes that we use to style each element. These classes
+						control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+						modify any of this with custom CSS or overriding our default variables. It's also worth noting
+						that just about any HTML can go within the <code>.accordion-body</code>, though the transition
+						does limit overflow.
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="Tea's">
 			<table>
 				<th colspan="2">Tea's</th>
@@ -72,7 +141,7 @@
 					<tr>
 						<td>Chocolate Coffee</td>
 						<td>&#8377 70</td>
-					
+
 				</table>
 			</div>
 			<div class="Milk">
@@ -90,99 +159,100 @@
 						<tr>
 							<td>Boost</td>
 							<td>&#8377 22</td>
-						
+
 					</table>
 				</div>
 				<div class="Milk">
-				<div class="Milk">
-					<table>
-						<th colspan="2">Milk</th>
-						<tr>
-							<td>Milk</td>
-							<td>&#8377 20</td>
-						</tr>
-						<tr>
-							<td>Turmerric Milk</td>
-							<td>&#8377 22</td>
-						</tr>
-						<tr>
-							<td>Boost</td>
-							<td>&#8377 22</td>
-						
-					</table>
-				</div>
-				<div class="Lassi's">
-					<div class="Lassi's">
+					<div class="Milk">
 						<table>
-							<th colspan="2">Lassi's</th>
+							<th colspan="2">Milk</th>
 							<tr>
-								<td>Sweet Lassi</td>
-								<td>&#8377 40</td>
+								<td>Milk</td>
+								<td>&#8377 20</td>
 							</tr>
 							<tr>
-								<td>Mango Lassi</td>
-								<td>&#8377 50</td>
+								<td>Turmerric Milk</td>
+								<td>&#8377 22</td>
 							</tr>
 							<tr>
-								<td>Strawberry Lassi</td>
-								<td>&#8377 50</td>
-							
+								<td>Boost</td>
+								<td>&#8377 22</td>
+
 						</table>
 					</div>
-					<div class="Ice cream's">
-						<div class="Ice cream's">
+					<div class="Lassi's">
+						<div class="Lassi's">
 							<table>
-								<th colspan="2">Ice cream's</th>
+								<th colspan="2">Lassi's</th>
 								<tr>
-									<td>Stick kulfi</td>
-									<td>&#8377 20</td>
-								</tr>
-								<tr>
-									<td>Kulfi with nuts</td>
+									<td>Sweet Lassi</td>
 									<td>&#8377 40</td>
 								</tr>
 								<tr>
-									<td>Strawberry Ice cream</td>
-									<td>&#8377 35</td>
-								
-							</table>
-						</div>
-						<div class="Chat">
-							<table>
-								<th colspan="2">Chat</th>
-								<tr>
-									<td>Masala Poori</td>
-									<td>&#8377 45</td>
-								</tr>
-								<tr>
-									<td>Pani Puri</td>
-									<td>&#8377 45</td>
-								</tr>
-								<tr>
-									<td>Sev Poori</td>
+									<td>Mango Lassi</td>
 									<td>&#8377 50</td>
 								</tr>
 								<tr>
-									<td>Samosa</td>
-									<td>&#8377 20</td>
-								</tr>
-								<tr>
-									<td>Bhel Poori/td>
-									<td>&#8377 45</td>
-								</tr>
+									<td>Strawberry Lassi</td>
+									<td>&#8377 50</td>
+
 							</table>
 						</div>
-										
-	</div>
-	<h2 id="locaheading">Location</h2>
-	<div class="locations">
-		<div class="anna nagar">
-			<h2>anna nagar</h2>
-			<address>
-				15,12th Main road,
-				Anna nagar, chennai-652853
-			</address>
-		</div>
-	</div>
-	</body>
+						<div class="Ice cream's">
+							<div class="Ice cream's">
+								<table>
+									<th colspan="2">Ice cream's</th>
+									<tr>
+										<td>Stick kulfi</td>
+										<td>&#8377 20</td>
+									</tr>
+									<tr>
+										<td>Kulfi with nuts</td>
+										<td>&#8377 40</td>
+									</tr>
+									<tr>
+										<td>Strawberry Ice cream</td>
+										<td>&#8377 35</td>
+
+								</table>
+							</div>
+							<div class="Chat">
+								<table>
+									<th colspan="2">Chat</th>
+									<tr>
+										<td>Masala Poori</td>
+										<td>&#8377 45</td>
+									</tr>
+									<tr>
+										<td>Pani Puri</td>
+										<td>&#8377 45</td>
+									</tr>
+									<tr>
+										<td>Sev Poori</td>
+										<td>&#8377 50</td>
+									</tr>
+									<tr>
+										<td>Samosa</td>
+										<td>&#8377 20</td>
+									</tr>
+									<tr>
+										<td>Bhel Poori/td>
+										<td>&#8377 45</td>
+									</tr>
+								</table>
+							</div>
+
+						</div>
+						<h2 id="locaheading">Location</h2>
+						<div class="locations">
+							<div class="anna nagar">
+								<h2>anna nagar</h2>
+								<address>
+									15,12th Main road,
+									Anna nagar, chennai-652853
+								</address>
+							</div>
+						</div>
+</body>
+
 </html>

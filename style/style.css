@@ -3,6 +3,7 @@
 	--green: #53bf9d;
 	--red: #fe0000;
 	--white: #f5f5f5;
+	--waring: #82ff;
 }
 
 body {
@@ -61,6 +62,11 @@ nav a:hover {
 
 .tagline2 {
 	color: var(--yellow);
+}
+
+.tagline2:hover {
+	color: var(--waring);
+	cursor: not-allowed;
 }
 
 .maintext div {
